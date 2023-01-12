@@ -1,5 +1,9 @@
 <p>Listado de Héroes</p>
 
+<!-- <div *ngIf=" heroeBorrado !== ''">
+  <h3>Héroe Borrado: <small>{{ heroeBorrado }}</small></h3>
+</div> -->
+
 <div *ngIf=" heroeBorrado; else noBorrado">
     <h3>Héroe Borrado: <small>{{ heroeBorrado }}</small></h3>
 </div>
